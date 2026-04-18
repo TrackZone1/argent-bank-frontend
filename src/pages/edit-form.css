@@ -1,0 +1,42 @@
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.edit-form-inputs {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.edit-form-inputs input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.edit-form-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.edit-button-save, .edit-button-cancel {
+  width: 100px;
+  padding: 0.5rem;
+  color: #00bc77;
+  background-color: white;
+  border: 2px solid #00bc77;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.edit-button-save:hover, .edit-button-cancel:hover {
+  background-color: #00bc77;
+  color: white;
+}
