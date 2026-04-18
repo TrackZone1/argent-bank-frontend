@@ -24,7 +24,7 @@ export default function Header() {
         />
         <h1 className="sr-only">Argent Bank</h1>
       </Link>
-      <div>
+      <div className="main-nav-items">
         {isAuthenticated ? (
           <>
             <Link className="main-nav-item" to="/profile">
